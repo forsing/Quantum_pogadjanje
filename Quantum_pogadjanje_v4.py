@@ -78,10 +78,11 @@ from qiskit.quantum_info import (
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_2977.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_plus_1733.csv"),
+    Path("/data/loto7_4710_k86.csv"),
+    Path("/data/loto7_4710_k86_loto_2977.csv"),
+    Path("/data/loto7_4710_k86_loto_plus_1733.csv"),
 )
+
 
 NUMBER_COUNT = 39
 DRAW_SIZE = 7
@@ -1921,7 +1922,7 @@ Ne pravi se gust vektor stanja sa 39 kubita.
 Limit iteracija ne odbacuje validnu sačuvanu raspodelu.
 Konvergencija se prijavljuje odvojeno.
 Budžet: najviše 500 iteracija po treningu.
-Kontrolne tačke: /Users/4c/Desktop/GHQ/Astra/Quantum_pogadjanje/Quantum_pogadjanje_v4_checkpoints
+Kontrolne tačke: /Quantum_pogadjanje/Quantum_pogadjanje_v4_checkpoints
 
 ULAZ: loto7_4710_k86.csv
 Redova: 4710 | praznih redova: 0
@@ -2033,7 +2034,7 @@ OPTIMIZER_SUCCESS: CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL
 Trajanje ovog poziva: 0.3 s
 
 loto7_4710_k86.csv
-NEXT: 10 11 12 24 25 26 39
+NEXT: 10 x 12 y 25 z 39
 Validacioni NLL: 16.548814312
 Odvojeni test NLL: 16.547949699
 Modelna verovatnoća NEXT: 7.81278005119e-08
@@ -2136,7 +2137,7 @@ OPTIMIZER_SUCCESS: CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL
 Trajanje ovog poziva: 0.2 s
 
 loto7_4710_k86_loto_2977.csv
-NEXT: 10 11 12 24 25 26 39
+NEXT: 10 x 12 y 25 z 39
 Validacioni NLL: 16.549155946
 Odvojeni test NLL: 16.547976809
 Modelna verovatnoća NEXT: 7.77826909454e-08
@@ -2236,7 +2237,7 @@ OPTIMIZER_SUCCESS: CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL
 Trajanje ovog poziva: 0.2 s
 
 loto7_4710_k86_loto_plus_1733.csv
-NEXT: 10 11 12 25 26 27 39
+NEXT: 10 x 12 y 26 z 39
 Validacioni NLL: 16.549062953
 Odvojeni test NLL: 16.548239526
 Modelna verovatnoća NEXT: 7.9467890837e-08
@@ -2253,7 +2254,7 @@ Gradijentni uslov: dostignut
 ZAVRŠNA TRI NEXT REZULTATA
 
 loto7_4710_k86.csv
-NEXT: 10 11 12 24 25 26 39
+NEXT: 10 x 12 y 25 z 39
 Validacioni NLL: 16.548814312
 Odvojeni test NLL: 16.547949699
 Modelna verovatnoća NEXT: 7.81278005119e-08
@@ -2267,7 +2268,7 @@ Gradijentni uslov: dostignut
 DIJAGNOSTIKA: Ista NEXT kombinacija kao u loto7_4710_k86_loto_2977.csv; proveriti uticaj istorije i degeneraciju.
 
 loto7_4710_k86_loto_2977.csv
-NEXT: 10 11 12 24 25 26 39
+NEXT: 10 x 12 y 25 z 39
 Validacioni NLL: 16.549155946
 Odvojeni test NLL: 16.547976809
 Modelna verovatnoća NEXT: 7.77826909454e-08
@@ -2281,7 +2282,7 @@ Gradijentni uslov: dostignut
 DIJAGNOSTIKA: Ista NEXT kombinacija kao u loto7_4710_k86.csv; proveriti uticaj istorije i degeneraciju.
 
 loto7_4710_k86_loto_plus_1733.csv
-NEXT: 10 11 12 25 26 27 39
+NEXT: 10 x 12 y 26 z 39
 Validacioni NLL: 16.549062953
 Odvojeni test NLL: 16.548239526
 Modelna verovatnoća NEXT: 7.9467890837e-08
