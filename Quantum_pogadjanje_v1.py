@@ -78,10 +78,11 @@ from qiskit.quantum_info import Pauli, Statevector
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_2977.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_plus_1733.csv"),
+    Path("/data/loto7_4710_k86.csv"),
+    Path("/data/loto7_4710_k86_loto_2977.csv"),
+    Path("/data/loto7_4710_k86_loto_plus_1733.csv"),
 )
+
 
 NUMBER_COUNT = 39
 DRAW_SIZE = 7
@@ -1672,8 +1673,8 @@ Max|grad|: 8.189e-07
 Trajanje: 23.2 s
 
 ZAVRŠNO UČENJE: svih 4709 prelaza
-Početni EARAC maksimum: 03 06 09 10 13 26 32
-Naučeni NEXT: 08 13 16 21 26 34 39
+Početni EARAC maksimum: 03 x 09 y 13 z 32
+Naučeni NEXT: 08 x 16 y 26 z 39
 Promena Born verovatnoća zbog istorije: 6.849195044e-02
 Promena uslovnih margina zbog istorije: 6.247465902e-02
 Zbir uslovnih margina: 7.000000000000
@@ -1853,8 +1854,8 @@ Max|grad|: 8.951e-07
 Trajanje: 21.1 s
 
 ZAVRŠNO UČENJE: svih 2976 prelaza
-Početni EARAC maksimum: 01 03 06 09 15 22 35
-Naučeni NEXT: 03 13 21 23 32 35 37
+Početni EARAC maksimum: 01 x 06 y 15 z 35
+Naučeni NEXT: 03 x 21 y 32 z 37
 Promena Born verovatnoća zbog istorije: 7.245344677e-02
 Promena uslovnih margina zbog istorije: 6.562299158e-02
 Zbir uslovnih margina: 7.000000000000
@@ -2034,8 +2035,8 @@ Max|grad|: 8.130e-07
 Trajanje: 13.0 s
 
 ZAVRŠNO UČENJE: svih 1732 prelaza
-Početni EARAC maksimum: 03 10 11 20 26 32 34
-Naučeni NEXT: 11 18 26 27 32 33 34
+Početni EARAC maksimum: 03 x 11 y 26 z 34
+Naučeni NEXT: 11 x 26 y 32 z 34
 Promena Born verovatnoća zbog istorije: 1.297438948e-01
 Promena uslovnih margina zbog istorije: 1.128766831e-01
 Zbir uslovnih margina: 7.000000000000
@@ -2045,7 +2046,7 @@ Zbir uslovnih margina: 7.000000000000
 ZAVRŠNA TRI NEXT REZULTATA
 
 loto7_4710_k86.csv
-NEXT: 08 13 16 21 26 34 39
+NEXT: 08 x 16 y 26 z 39
 Validacioni NLL: 16.584856356
 Odvojeni test NLL: 16.571771674
 Modelna verovatnoća NEXT: 1.77182723894e-07
@@ -2053,7 +2054,7 @@ Zbir uslovnih margina: 7.000000000000
 Osetljivost uslovnih margina: 6.247465902e-02
 
 loto7_4710_k86_loto_2977.csv
-NEXT: 03 13 21 23 32 35 37
+NEXT: 03 x 21 y 32 z 37
 Validacioni NLL: 16.602117820
 Odvojeni test NLL: 16.594303055
 Modelna verovatnoća NEXT: 1.87354082132e-07
@@ -2061,7 +2062,7 @@ Zbir uslovnih margina: 7.000000000000
 Osetljivost uslovnih margina: 6.562299158e-02
 
 loto7_4710_k86_loto_plus_1733.csv
-NEXT: 11 18 26 27 32 33 34
+NEXT: 11 x 26 y 32 z 34
 Validacioni NLL: 16.641840788
 Odvojeni test NLL: 16.621520268
 Modelna verovatnoća NEXT: 3.54699092807e-07
