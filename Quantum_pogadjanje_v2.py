@@ -67,10 +67,11 @@ from qiskit.quantum_info import Pauli, Statevector
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_2977.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_plus_1733.csv"),
+    Path("/data/loto7_4710_k86.csv"),
+    Path("/data/loto7_4710_k86_loto_2977.csv"),
+    Path("/data/loto7_4710_k86_loto_plus_1733.csv"),
 )
+
 
 NUMBER_COUNT = 39
 DRAW_SIZE = 7
@@ -1893,7 +1894,7 @@ Nema slučajnog uzorkovanja, šuma ili mešanja redova.
 Limit optimizacije ne odbacuje validnu sačuvanu raspodelu.
 Konvergencija se prijavljuje odvojeno od numeričke ispravnosti.
 Budžet: najviše 600 iteracija po početku.
-Kontrolne tačke: /Users/4c/Desktop/GHQ/Astra/Quantum_pogadjanje/Quantum_pogadjanje_v2_checkpoints
+Kontrolne tačke: /Quantum_pogadjanje/Quantum_pogadjanje_v2_checkpoints
 
 ULAZ: loto7_4710_k86.csv
 Redova: 4710 | praznih redova: 0
@@ -3445,7 +3446,7 @@ OPTIMIZER_SUCCESS: CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL
 Trajanje ovog poziva: 14.4 s
 
 loto7_4710_k86_loto_plus_1733.csv
-NEXT: 08 13 25 28 31 34 39
+NEXT: 08 x 25 y 31 z 39
 Validacioni NLL: 18.918503889
 Odvojeni test NLL: 17.844460572
 Modelna verovatnoća NEXT: 6.35486773073e-06
@@ -3460,7 +3461,7 @@ Gradijentni uslov: dostignut
 ZAVRŠNA TRI NEXT REZULTATA
 
 loto7_4710_k86.csv
-NEXT: 03 06 08 10 14 26 29
+NEXT: 03 x 08 y 14 z 29
 Validacioni NLL: 16.914203078
 Odvojeni test NLL: 16.794391538
 Modelna verovatnoća NEXT: 1.23357224444e-06
@@ -3471,7 +3472,7 @@ Max|grad| završnog modela: 6.060e-07
 Gradijentni uslov: dostignut
 
 loto7_4710_k86_loto_2977.csv
-NEXT: 01 05 07 13 18 25 34
+NEXT: 01 x 07 y 18 z 34
 Validacioni NLL: 17.193813372
 Odvojeni test NLL: 17.180689619
 Modelna verovatnoća NEXT: 9.84990537534e-07
@@ -3482,7 +3483,7 @@ Max|grad| završnog modela: 6.513e-07
 Gradijentni uslov: dostignut
 
 loto7_4710_k86_loto_plus_1733.csv
-NEXT: 08 13 25 28 31 34 39
+NEXT: 08 x 25 y 31 z 39
 Validacioni NLL: 18.918503889
 Odvojeni test NLL: 17.844460572
 Modelna verovatnoća NEXT: 6.35486773073e-06
