@@ -72,10 +72,11 @@ from qiskit.quantum_info import Pauli, Statevector
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_2977.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_plus_1733.csv"),
+    Path("/data/loto7_4710_k86.csv"),
+    Path("//data/loto7_4710_k86_loto_2977.csv"),
+    Path("/data/loto7_4710_k86_loto_plus_1733.csv"),
 )
+
 
 NUMBER_COUNT = 39
 DRAW_SIZE = 7
@@ -1689,7 +1690,7 @@ Limit iteracija ne odbacuje validnu sačuvanu raspodelu.
 Konvergencija se prijavljuje odvojeno.
 Uslovljena raspodela nema dodatne naučene interakcije među izlaznim brojevima.
 Budžet: najviše 500 iteracija po početku.
-Kontrolne tačke: /Users/4c/Desktop/GHQ/Astra/Quantum_pogadjanje/Quantum_pogadjanje_v3_checkpoints
+Kontrolne tačke: /Quantum_pogadjanje/Quantum_pogadjanje_v3_checkpoints
 
 ULAZ: loto7_4710_k86.csv
 Redova: 4710 | praznih redova: 0
@@ -1879,7 +1880,7 @@ OPTIMIZER_SUCCESS: CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL
 Trajanje ovog poziva: 0.8 s
 
 loto7_4710_k86.csv
-NEXT: 03 08 10 16 21 23 39
+NEXT: 03 x 10 y 21 z 39
 Validacioni NLL: 16.548540851
 Odvojeni test NLL: 16.548333541
 Test kola: 942
@@ -2058,7 +2059,7 @@ OPTIMIZER_SUCCESS: CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL
 Trajanje ovog poziva: 0.5 s
 
 loto7_4710_k86_loto_2977.csv
-NEXT: 10 13 16 21 22 26 39
+NEXT: 10 x 16 y 22 z 39
 Validacioni NLL: 16.548492119
 Odvojeni test NLL: 16.547968099
 Test kola: 596
@@ -2237,7 +2238,7 @@ OPTIMIZER_SUCCESS: CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL
 Trajanje ovog poziva: 0.4 s
 
 loto7_4710_k86_loto_plus_1733.csv
-NEXT: 04 07 11 18 23 25 29
+NEXT: 04 x 11 y 23 z 29
 Validacioni NLL: 16.548514692
 Odvojeni test NLL: 16.549609316
 Test kola: 347
@@ -2255,7 +2256,7 @@ Gradijentni uslov: dostignut
 ZAVRŠNA TRI NEXT REZULTATA
 
 loto7_4710_k86.csv
-NEXT: 03 08 10 16 21 23 39
+NEXT: 03 x 10 y 21 z 39
 Validacioni NLL: 16.548540851
 Odvojeni test NLL: 16.548333541
 Test kola: 942
@@ -2269,7 +2270,7 @@ Max|grad| završnog modela: 1.378e-07
 Gradijentni uslov: dostignut
 
 loto7_4710_k86_loto_2977.csv
-NEXT: 10 13 16 21 22 26 39
+NEXT: 10 x 16 y 22 z 39
 Validacioni NLL: 16.548492119
 Odvojeni test NLL: 16.547968099
 Test kola: 596
@@ -2283,7 +2284,7 @@ Max|grad| završnog modela: 1.539e-07
 Gradijentni uslov: dostignut
 
 loto7_4710_k86_loto_plus_1733.csv
-NEXT: 04 07 11 18 23 25 29
+NEXT: 04 x 11 y 23 z 29
 Validacioni NLL: 16.548514692
 Odvojeni test NLL: 16.549609316
 Test kola: 347
